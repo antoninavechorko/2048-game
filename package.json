@@ -1,0 +1,26 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoninavechorko/2048-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoninavechorko/2048-game/issues"
+  },
+  "homepage": "https://github.com/antoninavechorko/2048-game#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "gh-pages": "^4.0.0"
+  }
+}
